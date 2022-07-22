@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap の日本語フォントの設定-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/jpn.css@latest/dist/bootstrap/jpn.min.css"
+    />
+</head>
+<body>
+    <!-- ヘッダー開始 -->
+    <!-- Bootstrap で装飾 -->
+    <header class="navbar bg-dark">
+        <h1 class="h4 my-0 text-white font-weight-normal">
+          自己紹介
+        </h1>
+    </header>
+    <!-- ヘッダー終了 -->
+    <!-- コンテンツ開始 --> 
+    <main>
+        <!-- トップ開始 -->
+        <section class="name">
+            <h2 class="display-3 mt-1">荻野美咲</h2>
+            <h3 class="lead mb-5">
+              出身：埼玉　職業：システムエンジニア
+            </h3>
+        </section>
+        <!-- トップ終了 -->
+        <section>
+            <div id="food">
+                <h4>好きな食べ物</h4>
+                <ul>
+                    <li>桃</li>
+                    <li>茄子</li>
+                </ul>
+                <h4>嫌いな食べ物</h4>
+                
+                <ul id="list"></ul>
+                
+                <script src="introduce.js"></script>
+                <p>嫌いなものも結局食べます、、、食べることが好きです！</p>
+            </div>            
+        </section>
+        <section class="py-5 bg-light text-center">
+            <h5>趣味</h5>
+            <h6>東京ディズニーリゾートに行くこと</h6>          
+            <img src="/image/disney.jpg" class="img-fluid" />
+            <a
+          href="https://www.tokyodisneyresort.jp/"
+          class="btn btn-secondary btn-sm active" 
+          role="button" 
+          aria-pressed="true"
+        > 東京ディズニーリゾートオフィシャルウェブサイト
+            </a>
+        </section>
+        <section class="py-5 bg-light text-center">
+            <h2>新しい趣味募集！</h2>
+            <form class="container w-25">
+              <div>
+                <label for="hobby">あなたの趣味</label>
+                <input type="text" name="input" id="hobby" class="form-control" />
+              </div>
+              <button type="submit" class="btn btn-success">送信</button>
+            </form>
+          </section>
+    </main>
+    <!-- コンテンツ終了 -->
+    <!-- フッター開始 -->
+    <footer class="h4 my-0 bg-dark text-white font-weight-normal">©オギノ</footer>
+    <!-- フッター終了 -->   
+</body>
+</html>

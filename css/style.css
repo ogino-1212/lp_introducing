@@ -1,0 +1,9 @@
+/* id 指定 */
+#food {
+    background-color: rgb(240, 221, 196);
+  }
+  
+  /* class 指定 */
+  .name {
+    background-color: rgb(180, 246, 180);
+  }
